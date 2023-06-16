@@ -26,9 +26,8 @@ export default function Home() {
             Why?
           </p>
           <p className="mt-6 text-black dark:text-white">
-            We built some awesome stuff and were well-received by a substantial number of users, who appreciated our efforts. 
-            Unfortunatly, we fell short of finding a product-market fit and getting a big enough user base necessary to 
-            ensure the business’s viability. 😢
+            We built some awesome stuff that was well-received by a substantial number of users. 
+            Unfortunatly, we fell short of finding product-market fit and a viable business model. 😢
           </p>
         </div>   
     </main>
