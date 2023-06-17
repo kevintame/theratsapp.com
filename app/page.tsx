@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <main className="relative grid mx-auto max-w-2xl p-10 sm:p-24">
-      <div className='mx-auto'>
+      <div className=''>
         <Image
           className=""
           src="/rats.svg"
@@ -13,7 +13,7 @@ export default function Home() {
           priority
           />  
             </div> 
-            <div className='text-center'>
+            <div className=''>
           <h1 className="mt-10 text-3xl font-bold tracking-tight text-black dark:text-white sm:text-4xl">
             Rats is no longer available.
           </h1>
@@ -29,6 +29,9 @@ export default function Home() {
             We built some awesome stuff that was well-received by a substantial number of users. 
             Unfortunatly, we fell short of finding product-market fit and a viable business model. 😢
           </p>
+          <div className='mt-10'>
+          <a href="/about" className='rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50'>What was Rats?</a>
+          </div>
         </div>   
     </main>
   )
